@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 //3.设置独特的set/get方法名字（没什么用）
 //4.内存管理MRC:手动内存管理
 //assign:修饰简单类型int/char/double
-//copy retian:用来修饰对象
+//copy retain:用来修饰对象
 //5.内存管理ARC:自动内存管理
 //assign:修饰简单类型int/char/double
 //weak 或者stong:用来修饰对象
