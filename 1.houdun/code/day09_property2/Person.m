@@ -1,13 +1,13 @@
 //
 //  Person.m
-//  day01_introduce
+//  day09_property2
 //
-//  Created by 杨秉熙 on 2019/2/15.
+//  Created by 杨秉熙 on 2019/2/16.
 //  Copyright © 2019 杨秉熙. All rights reserved.
 //
 
 #import "Person.h"
 
 @implementation Person
-
+//@synthesize houseNum = _houseNum;
 @end

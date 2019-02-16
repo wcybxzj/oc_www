@@ -1,8 +1,8 @@
 //
 //  Person.h
-//  day01_introduce
+//  day07_pointer
 //
-//  Created by 杨秉熙 on 2019/2/15.
+//  Created by 杨秉熙 on 2019/2/16.
 //  Copyright © 2019 杨秉熙. All rights reserved.
 //
 
@@ -10,8 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-//Person类的父类是NSObject
-@interface Person : NSObject
+@interface Person : NSObject{
+    int _age;
+}
+
+-(void)setAge:(int)age;
+-(int)age;
 
 @end
 
