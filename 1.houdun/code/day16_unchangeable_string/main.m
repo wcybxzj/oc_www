@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-//不可变的字符串
+//不可变的字符串:NSString
+//相当于c语言种 char *str= "abc"; str[0]='a';//报错
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
