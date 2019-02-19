@@ -11,6 +11,14 @@
 		6447971C221B126100AE0CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6447971B221B126100AE0CDD /* main.m */; };
 		64479722221B13B900AE0CDD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 64479721221B13B900AE0CDD /* Person.m */; };
 		6447972A221B1D9C00AE0CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64479729221B1D9C00AE0CDD /* main.m */; };
+		64924F7F221C50EA0089B356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924F7E221C50EA0089B356 /* main.m */; };
+		64924F8A221C5F850089B356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924F89221C5F850089B356 /* main.m */; };
+		64924F90221C605E0089B356 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924F8F221C605E0089B356 /* Card.m */; };
+		64924F93221C67300089B356 /* Husband.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924F92221C67300089B356 /* Husband.m */; };
+		64924F96221C673A0089B356 /* Wife.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924F95221C673A0089B356 /* Wife.m */; };
+		64924F9E221C7EB70089B356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924F9D221C7EB70089B356 /* main.m */; };
+		64924FA9221C7EE10089B356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924FA8221C7EE10089B356 /* main.m */; };
+		64924FB4221C871B0089B356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924FB3221C871B0089B356 /* main.m */; };
 		6496B7372215A86E0090F3F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6496B7362215A86E0090F3F9 /* main.m */; };
 		6496B7422215DD7B0090F3F9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6496B7412215DD7B0090F3F9 /* Person.m */; };
 		649B09632216B3FD0065BDEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B09622216B3FD0065BDEC /* main.m */; };
@@ -66,6 +74,51 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		64479725221B1D9C00AE0CDD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		64924F7A221C50EA0089B356 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		64924F85221C5F850089B356 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		64924F99221C7EB70089B356 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		64924FA4221C7EE10089B356 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		64924FAF221C871B0089B356 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -238,6 +291,22 @@
 		64479721221B13B900AE0CDD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		64479727221B1D9C00AE0CDD /* day22_NSDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day22_NSDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
 		64479729221B1D9C00AE0CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64924F7C221C50EA0089B356 /* day23_NSMutableDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day23_NSMutableDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
+		64924F7E221C50EA0089B356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64924F87221C5F850089B356 /* day24_SignletonPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day24_SignletonPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		64924F89221C5F850089B356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64924F8E221C605E0089B356 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		64924F8F221C605E0089B356 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		64924F91221C67300089B356 /* Husband.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Husband.h; sourceTree = "<group>"; };
+		64924F92221C67300089B356 /* Husband.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Husband.m; sourceTree = "<group>"; };
+		64924F94221C673A0089B356 /* Wife.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wife.h; sourceTree = "<group>"; };
+		64924F95221C673A0089B356 /* Wife.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wife.m; sourceTree = "<group>"; };
+		64924F9B221C7EB70089B356 /* day25_NSDate_NSString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day25_NSDate_NSString; sourceTree = BUILT_PRODUCTS_DIR; };
+		64924F9D221C7EB70089B356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64924FA6221C7EE10089B356 /* day26_NSFileManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day26_NSFileManager; sourceTree = BUILT_PRODUCTS_DIR; };
+		64924FA8221C7EE10089B356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64924FB1221C871B0089B356 /* day27_NSData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day27_NSData; sourceTree = BUILT_PRODUCTS_DIR; };
+		64924FB3221C871B0089B356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6496B7332215A86E0090F3F9 /* day01_introduce */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day01_introduce; sourceTree = BUILT_PRODUCTS_DIR; };
 		6496B7362215A86E0090F3F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6496B7402215DD7B0090F3F9 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -322,6 +391,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		64479724221B1D9C00AE0CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924F79221C50EA0089B356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924F84221C5F850089B356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924F98221C7EB70089B356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924FA3221C7EE10089B356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924FAE221C871B0089B356 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,6 +580,52 @@
 			path = day22_NSDictionary;
 			sourceTree = "<group>";
 		};
+		64924F7D221C50EA0089B356 /* day23_NSMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				64924F7E221C50EA0089B356 /* main.m */,
+			);
+			path = day23_NSMutableDictionary;
+			sourceTree = "<group>";
+		};
+		64924F88221C5F850089B356 /* day24_SignletonPattern */ = {
+			isa = PBXGroup;
+			children = (
+				64924F89221C5F850089B356 /* main.m */,
+				64924F8E221C605E0089B356 /* Card.h */,
+				64924F8F221C605E0089B356 /* Card.m */,
+				64924F91221C67300089B356 /* Husband.h */,
+				64924F92221C67300089B356 /* Husband.m */,
+				64924F94221C673A0089B356 /* Wife.h */,
+				64924F95221C673A0089B356 /* Wife.m */,
+			);
+			path = day24_SignletonPattern;
+			sourceTree = "<group>";
+		};
+		64924F9C221C7EB70089B356 /* day25_NSDate_NSString */ = {
+			isa = PBXGroup;
+			children = (
+				64924F9D221C7EB70089B356 /* main.m */,
+			);
+			path = day25_NSDate_NSString;
+			sourceTree = "<group>";
+		};
+		64924FA7221C7EE10089B356 /* day26_NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				64924FA8221C7EE10089B356 /* main.m */,
+			);
+			path = day26_NSFileManager;
+			sourceTree = "<group>";
+		};
+		64924FB2221C871B0089B356 /* day27_NSData */ = {
+			isa = PBXGroup;
+			children = (
+				64924FB3221C871B0089B356 /* main.m */,
+			);
+			path = day27_NSData;
+			sourceTree = "<group>";
+		};
 		6496B72A2215A86E0090F3F9 = {
 			isa = PBXGroup;
 			children = (
@@ -499,6 +649,11 @@
 				6447970F221B0F4000AE0CDD /* day21_NSnumber */,
 				6447971A221B126100AE0CDD /* day21_selector */,
 				64479728221B1D9C00AE0CDD /* day22_NSDictionary */,
+				64924F7D221C50EA0089B356 /* day23_NSMutableDictionary */,
+				64924F88221C5F850089B356 /* day24_SignletonPattern */,
+				64924F9C221C7EB70089B356 /* day25_NSDate_NSString */,
+				64924FA7221C7EE10089B356 /* day26_NSFileManager */,
+				64924FB2221C871B0089B356 /* day27_NSData */,
 				6496B7342215A86E0090F3F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -526,6 +681,11 @@
 				6447970E221B0F4000AE0CDD /* day21_NSnumber */,
 				64479719221B126100AE0CDD /* day21_selector */,
 				64479727221B1D9C00AE0CDD /* day22_NSDictionary */,
+				64924F7C221C50EA0089B356 /* day23_NSMutableDictionary */,
+				64924F87221C5F850089B356 /* day24_SignletonPattern */,
+				64924F9B221C7EB70089B356 /* day25_NSDate_NSString */,
+				64924FA6221C7EE10089B356 /* day26_NSFileManager */,
+				64924FB1221C871B0089B356 /* day27_NSData */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -750,6 +910,91 @@
 			name = day22_NSDictionary;
 			productName = day22_NSDicctionary;
 			productReference = 64479727221B1D9C00AE0CDD /* day22_NSDictionary */;
+			productType = "com.apple.product-type.tool";
+		};
+		64924F7B221C50EA0089B356 /* day23_NSMutableDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64924F82221C50EA0089B356 /* Build configuration list for PBXNativeTarget "day23_NSMutableDictionary" */;
+			buildPhases = (
+				64924F78221C50EA0089B356 /* Sources */,
+				64924F79221C50EA0089B356 /* Frameworks */,
+				64924F7A221C50EA0089B356 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day23_NSMutableDictionary;
+			productName = day23_NSMutableDictionary;
+			productReference = 64924F7C221C50EA0089B356 /* day23_NSMutableDictionary */;
+			productType = "com.apple.product-type.tool";
+		};
+		64924F86221C5F850089B356 /* day24_SignletonPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64924F8B221C5F850089B356 /* Build configuration list for PBXNativeTarget "day24_SignletonPattern" */;
+			buildPhases = (
+				64924F83221C5F850089B356 /* Sources */,
+				64924F84221C5F850089B356 /* Frameworks */,
+				64924F85221C5F850089B356 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day24_SignletonPattern;
+			productName = day24_SignletonPattern;
+			productReference = 64924F87221C5F850089B356 /* day24_SignletonPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+		64924F9A221C7EB70089B356 /* day25_NSDate_NSString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64924F9F221C7EB70089B356 /* Build configuration list for PBXNativeTarget "day25_NSDate_NSString" */;
+			buildPhases = (
+				64924F97221C7EB70089B356 /* Sources */,
+				64924F98221C7EB70089B356 /* Frameworks */,
+				64924F99221C7EB70089B356 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day25_NSDate_NSString;
+			productName = day25_NSDate_NSString;
+			productReference = 64924F9B221C7EB70089B356 /* day25_NSDate_NSString */;
+			productType = "com.apple.product-type.tool";
+		};
+		64924FA5221C7EE10089B356 /* day26_NSFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64924FAA221C7EE20089B356 /* Build configuration list for PBXNativeTarget "day26_NSFileManager" */;
+			buildPhases = (
+				64924FA2221C7EE10089B356 /* Sources */,
+				64924FA3221C7EE10089B356 /* Frameworks */,
+				64924FA4221C7EE10089B356 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day26_NSFileManager;
+			productName = day26_NSFileManager;
+			productReference = 64924FA6221C7EE10089B356 /* day26_NSFileManager */;
+			productType = "com.apple.product-type.tool";
+		};
+		64924FB0221C871B0089B356 /* day27_NSData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64924FB5221C871B0089B356 /* Build configuration list for PBXNativeTarget "day27_NSData" */;
+			buildPhases = (
+				64924FAD221C871B0089B356 /* Sources */,
+				64924FAE221C871B0089B356 /* Frameworks */,
+				64924FAF221C871B0089B356 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day27_NSData;
+			productName = day27_NSData;
+			productReference = 64924FB1221C871B0089B356 /* day27_NSData */;
 			productType = "com.apple.product-type.tool";
 		};
 		6496B7322215A86E0090F3F9 /* day01_introduce */ = {
@@ -1059,6 +1304,21 @@
 					64479726221B1D9C00AE0CDD = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					64924F7B221C50EA0089B356 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					64924F86221C5F850089B356 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					64924F9A221C7EB70089B356 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					64924FA5221C7EE10089B356 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					64924FB0221C871B0089B356 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					6496B7322215A86E0090F3F9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1144,6 +1404,11 @@
 				6447970D221B0F4000AE0CDD /* day21_NSnumber */,
 				64479718221B126100AE0CDD /* day21_selector */,
 				64479726221B1D9C00AE0CDD /* day22_NSDictionary */,
+				64924F7B221C50EA0089B356 /* day23_NSMutableDictionary */,
+				64924F86221C5F850089B356 /* day24_SignletonPattern */,
+				64924F9A221C7EB70089B356 /* day25_NSDate_NSString */,
+				64924FA5221C7EE10089B356 /* day26_NSFileManager */,
+				64924FB0221C871B0089B356 /* day27_NSData */,
 			);
 		};
 /* End PBXProject section */
@@ -1171,6 +1436,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				6447972A221B1D9C00AE0CDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924F78221C50EA0089B356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64924F7F221C50EA0089B356 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924F83221C5F850089B356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64924F96221C673A0089B356 /* Wife.m in Sources */,
+				64924F8A221C5F850089B356 /* main.m in Sources */,
+				64924F90221C605E0089B356 /* Card.m in Sources */,
+				64924F93221C67300089B356 /* Husband.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924F97221C7EB70089B356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64924F9E221C7EB70089B356 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924FA2221C7EE10089B356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64924FA9221C7EE10089B356 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64924FAD221C871B0089B356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64924FB4221C871B0089B356 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1370,6 +1678,86 @@
 			name = Debug;
 		};
 		6447972D221B1D9C00AE0CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64924F80221C50EA0089B356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64924F81221C50EA0089B356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64924F8C221C5F850089B356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64924F8D221C5F850089B356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64924FA0221C7EB70089B356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64924FA1221C7EB70089B356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64924FAB221C7EE20089B356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64924FAC221C7EE20089B356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64924FB6221C871B0089B356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64924FB7221C871B0089B356 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1786,6 +2174,51 @@
 			buildConfigurations = (
 				6447972C221B1D9C00AE0CDD /* Debug */,
 				6447972D221B1D9C00AE0CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64924F82221C50EA0089B356 /* Build configuration list for PBXNativeTarget "day23_NSMutableDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64924F80221C50EA0089B356 /* Debug */,
+				64924F81221C50EA0089B356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64924F8B221C5F850089B356 /* Build configuration list for PBXNativeTarget "day24_SignletonPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64924F8C221C5F850089B356 /* Debug */,
+				64924F8D221C5F850089B356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64924F9F221C7EB70089B356 /* Build configuration list for PBXNativeTarget "day25_NSDate_NSString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64924FA0221C7EB70089B356 /* Debug */,
+				64924FA1221C7EB70089B356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64924FAA221C7EE20089B356 /* Build configuration list for PBXNativeTarget "day26_NSFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64924FAB221C7EE20089B356 /* Debug */,
+				64924FAC221C7EE20089B356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64924FB5221C871B0089B356 /* Build configuration list for PBXNativeTarget "day27_NSData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64924FB6221C871B0089B356 /* Debug */,
+				64924FB7221C871B0089B356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

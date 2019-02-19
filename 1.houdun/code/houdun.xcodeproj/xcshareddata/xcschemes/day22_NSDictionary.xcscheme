@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "64479726221B1D9C00AE0CDD"
-               BuildableName = "day22_NSDicctionary"
-               BlueprintName = "day22_NSDicctionary"
+               BuildableName = "day22_NSDictionary"
+               BlueprintName = "day22_NSDictionary"
                ReferencedContainer = "container:houdun.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64479726221B1D9C00AE0CDD"
-            BuildableName = "day22_NSDicctionary"
-            BlueprintName = "day22_NSDicctionary"
+            BuildableName = "day22_NSDictionary"
+            BlueprintName = "day22_NSDictionary"
             ReferencedContainer = "container:houdun.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64479726221B1D9C00AE0CDD"
-            BuildableName = "day22_NSDicctionary"
-            BlueprintName = "day22_NSDicctionary"
+            BuildableName = "day22_NSDictionary"
+            BlueprintName = "day22_NSDictionary"
             ReferencedContainer = "container:houdun.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64479726221B1D9C00AE0CDD"
-            BuildableName = "day22_NSDicctionary"
-            BlueprintName = "day22_NSDicctionary"
+            BuildableName = "day22_NSDictionary"
+            BlueprintName = "day22_NSDictionary"
             ReferencedContainer = "container:houdun.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
