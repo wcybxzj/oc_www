@@ -10,8 +10,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        //NSData = [北京失明]
-        //str encoding
+        //NSData类:一种数据类型
+        //在传输时,传输的是二进制文件
         NSString *str = @"dabing";
         NSData *data = [str dataUsingEncoding: NSUTF8StringEncoding];
         NSLog(@"%@", data);
