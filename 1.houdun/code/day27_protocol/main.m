@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Cat.h"
+#import "Dog.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         //协议:
@@ -45,6 +46,12 @@ int main(int argc, const char * argv[]) {
          协议可以被1个或者多个协议遵守
          协议可以被1个或者类个协议遵守
          */
+        
+        Cat *cat = [[Cat alloc]init];
+        Dog *dog = [[Dog alloc]init];
+        
+        [cat run];
+        [dog run];
         
 
     }
