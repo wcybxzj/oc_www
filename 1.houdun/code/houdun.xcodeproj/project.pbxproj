@@ -14,6 +14,7 @@
 		640EAD98221F0C2C0092E286 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 640EAD97221F0C2C0092E286 /* Student.m */; };
 		640EADA0221F12790092E286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 640EAD9F221F12790092E286 /* main.m */; };
 		640EADA6221F19450092E286 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 640EADA5221F19450092E286 /* Student.m */; };
+		641AAEA922204A54004D5FC9 /* Broker.m in Sources */ = {isa = PBXBuildFile; fileRef = 641AAEA822204A54004D5FC9 /* Broker.m */; };
 		64479711221B0F4000AE0CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64479710221B0F4000AE0CDD /* main.m */; };
 		6447971C221B126100AE0CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6447971B221B126100AE0CDD /* main.m */; };
 		64479722221B13B900AE0CDD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 64479721221B13B900AE0CDD /* Person.m */; };
@@ -333,6 +334,8 @@
 		640EAD9F221F12790092E286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		640EADA4221F19450092E286 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		640EADA5221F19450092E286 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		641AAEA722204A54004D5FC9 /* Broker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Broker.h; sourceTree = "<group>"; };
+		641AAEA822204A54004D5FC9 /* Broker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Broker.m; sourceTree = "<group>"; };
 		6447970E221B0F4000AE0CDD /* day21_NSnumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day21_NSnumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		64479710221B0F4000AE0CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64479719221B126100AE0CDD /* day21_selector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day21_selector; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -645,6 +648,8 @@
 				640EAD9F221F12790092E286 /* main.m */,
 				640EADA4221F19450092E286 /* Student.h */,
 				640EADA5221F19450092E286 /* Student.m */,
+				641AAEA722204A54004D5FC9 /* Broker.h */,
+				641AAEA822204A54004D5FC9 /* Broker.m */,
 			);
 			path = day29_protocol_delegate;
 			sourceTree = "<group>";
@@ -1606,6 +1611,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				640EADA0221F12790092E286 /* main.m in Sources */,
+				641AAEA922204A54004D5FC9 /* Broker.m in Sources */,
 				640EADA6221F19450092E286 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

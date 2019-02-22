@@ -12,7 +12,9 @@
 //容错处理:判断Delegate是否有findHouse的能力,如果有才去,没有就不执行
 
 -(void)findHelp{
+    //
     SEL sel = @selector(findHouse);
+    //判断_delegate是否有findHouse方法
     if ([_delegate respondsToSelector:sel]) {
         [_delegate performSelector:sel];
     }
