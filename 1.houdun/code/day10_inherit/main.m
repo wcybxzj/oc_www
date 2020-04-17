@@ -15,11 +15,13 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Person *per = [Person new];
         [per run];
+        NSLog(@"=========");
         
         Student *stu = [Student new];
         [stu run];
         [stu eat];
-        
+        NSLog(@"=========");
+
         NSLog(@"student weight:%f", stu.weight);
         
         Teacher *t =[Teacher new];

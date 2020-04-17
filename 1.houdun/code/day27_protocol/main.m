@@ -11,7 +11,7 @@
 #import "Dog.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        //协议:
+        //协议:实际就是接口
         //定义:一组方法的列表
         //特点:只有定义没有实现.实现在遵守(引用)了该协议的类的.m文件中实现部分，
         //构成:NSObject是基础协议

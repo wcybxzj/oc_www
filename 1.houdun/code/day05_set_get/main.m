@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
         Person *per = [Person new];
         [per setAge:100];
         NSLog(@"age:%d", [per age]);
+        NSLog(@"age:%d", per.age);
    }
     return 0;
 }

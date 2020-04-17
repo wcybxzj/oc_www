@@ -19,6 +19,7 @@
 		6447971C221B126100AE0CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6447971B221B126100AE0CDD /* main.m */; };
 		64479722221B13B900AE0CDD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 64479721221B13B900AE0CDD /* Person.m */; };
 		6447972A221B1D9C00AE0CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64479729221B1D9C00AE0CDD /* main.m */; };
+		644EDB9D24499673004EEED3 /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 644EDB9C24499673004EEED3 /* Person2.m */; };
 		64924F7F221C50EA0089B356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924F7E221C50EA0089B356 /* main.m */; };
 		64924F8A221C5F850089B356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924F89221C5F850089B356 /* main.m */; };
 		64924F90221C605E0089B356 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 64924F8F221C605E0089B356 /* Card.m */; };
@@ -344,6 +345,8 @@
 		64479721221B13B900AE0CDD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		64479727221B1D9C00AE0CDD /* day22_NSDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day22_NSDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
 		64479729221B1D9C00AE0CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		644EDB9B24499673004EEED3 /* Person2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person2.h; sourceTree = "<group>"; };
+		644EDB9C24499673004EEED3 /* Person2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
 		64924F7C221C50EA0089B356 /* day23_NSMutableDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day23_NSMutableDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
 		64924F7E221C50EA0089B356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64924F87221C5F850089B356 /* day24_SignletonPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day24_SignletonPattern; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -680,6 +683,15 @@
 			path = day22_NSDictionary;
 			sourceTree = "<group>";
 		};
+		644EDB9A24499656004EEED3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				644EDB9B24499673004EEED3 /* Person2.h */,
+				644EDB9C24499673004EEED3 /* Person2.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		64924F7D221C50EA0089B356 /* day23_NSMutableDictionary */ = {
 			isa = PBXGroup;
 			children = (
@@ -799,6 +811,7 @@
 		6496B7352215A86E0090F3F9 /* day01_introduce */ = {
 			isa = PBXGroup;
 			children = (
+				644EDB9A24499656004EEED3 /* New Group */,
 				6496B7362215A86E0090F3F9 /* main.m */,
 				6496B7402215DD7B0090F3F9 /* Person.h */,
 				6496B7412215DD7B0090F3F9 /* Person.m */,
@@ -1688,6 +1701,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644EDB9D24499673004EEED3 /* Person2.m in Sources */,
 				6496B7422215DD7B0090F3F9 /* Person.m in Sources */,
 				6496B7372215A86E0090F3F9 /* main.m in Sources */,
 			);

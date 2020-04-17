@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
-
-
+#import "New Group/Person2.h"
 //new project->macos->command line tool
 
 //cmd + r 运行
@@ -22,6 +21,11 @@ int main(int argc, const char * argv[]) {
         
         Person *per = [[Person alloc]init];
         [per kidding];
+         
+         Person2 *per2 = [[Person2 alloc]init];
+         per2->_age=123;
+         NSLog(@"person2 age:%d",per2->_age);
+
     }
     return 0;
 }
