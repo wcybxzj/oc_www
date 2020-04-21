@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
         //NSLog自动换行
         NSLog(@"Hello, World!");
         
-        
+    
         Person *per = [[Person alloc]init];
         [per kidding];
          
