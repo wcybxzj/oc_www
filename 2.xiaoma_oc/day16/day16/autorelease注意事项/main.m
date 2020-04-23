@@ -85,10 +85,10 @@ void test5(){
 
 
 int main(int argc, const char * argv[]) {
-    //test1();//Person 没demalloc
+    test1();//Person 没demalloc
     //test2();//Person dealloc
     //test3();//Person dealloc
-    test4();
+    //test4();
 //    test5();
     
 
